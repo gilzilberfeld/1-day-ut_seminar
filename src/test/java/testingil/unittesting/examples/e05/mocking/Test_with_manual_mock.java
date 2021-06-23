@@ -10,7 +10,7 @@ import testingil.unittesting.examples.e05.mocking.Driver;
 class Test_with_manual_mock{
 
 	@Test
-	void a_running_car() {
+	void cannot_drive_a_running_car() {
 		Car mockCar = new Mock_RunningCar();
 		Driver driver = new Driver(mockCar);
 		

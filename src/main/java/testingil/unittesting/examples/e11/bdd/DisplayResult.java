@@ -1,4 +1,4 @@
-package testingil.unittesting.examples.e10.bdd;
+package testingil.unittesting.examples.e11.bdd;
 
 public class DisplayResult {
 	private String display;

@@ -12,7 +12,7 @@ import org.mockito.Mockito;
 class Test_with_mockito_verification{
 
 	@Test
-	void only_if_AC_is_set() {
+	void AC_is_set_before_we_drive() {
 		Car mockCar = mock(Car.class);
 		Driver driver = new Driver(mockCar);
 		driver.drive();
@@ -23,7 +23,7 @@ class Test_with_mockito_verification{
 
 	
 	@Test
-	void with_aircondition_on() {
+	void AC_is_set_on_before_we_drive() {
 		Car mockCar = mock(Car.class);
 		Driver driver = new Driver(mockCar);
 		ArgumentCaptor<AirCondition> acCaptor = 

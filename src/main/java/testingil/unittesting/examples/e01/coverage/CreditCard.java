@@ -15,7 +15,7 @@ public class CreditCard {
 		LocalDate localExpDate = LocalDate.ofInstant(
 			      expirationDate.toInstant(), ZoneId.systemDefault());
 		LocalDate today = LocalDate.now();
-		if (today.compareTo(localExpDate) >0 )
+		if (today.compareTo(localExpDate) < 0 )
 			return true;
 		else
 			return false;

@@ -21,6 +21,5 @@ class RepeatedTests {
 		int current = rep.getCurrentRepetition();
 		String message = "#" + current+ " failed"; 
 		assertThat(message, calc.add(2,current ), lessThan (5)); 
-	 
 	}
 }

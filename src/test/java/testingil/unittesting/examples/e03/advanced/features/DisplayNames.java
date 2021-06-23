@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 class DisplayNames {
 
 	@Test
-	@DisplayName("A Better Name, But still...")
-	void an_embarassing_test() {
+	@DisplayName("Magnificent Name!!!1")
+	void a_simple_test() {
 		Calculator calc = new Calculator();
 		assertThat(calc.add(2, 3), is(5));
 	}

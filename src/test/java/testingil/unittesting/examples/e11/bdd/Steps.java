@@ -1,10 +1,11 @@
-package testingil.unittesting.examples.e10.bdd;
+package testingil.unittesting.examples.e11.bdd;
 
 import static org.junit.Assert.assertEquals;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import testingil.unittesting.examples.e11.bdd.Calculator;
 public class Steps {
 	Calculator calc;
 	
