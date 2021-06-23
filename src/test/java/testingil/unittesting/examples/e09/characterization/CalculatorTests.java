@@ -25,6 +25,7 @@ public class CalculatorTests {
 	@Autowired
 	private Logger log;
 
+	@Disabled
 	@Test
 	public void CheckDisplayTest() throws Exception
 	{
