@@ -9,7 +9,7 @@ import testingil.unittesting.examples.e11.bdd.Calculator;
 public class Steps {
 	Calculator calc;
 	
-	@Given("I have a calulator")
+	@Given("I have a calculator")
 	public void setup() {
 		calc = new Calculator();
 	}
