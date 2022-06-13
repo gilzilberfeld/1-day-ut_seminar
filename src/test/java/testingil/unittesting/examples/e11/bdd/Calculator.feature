@@ -2,19 +2,17 @@
 Feature: Calculator Cucumber Tests
   Operates calculator as unit tests
 
-  @tag1
-  Scenario: Calculate simple addition
+ Scenario: Calculate simple addition
     Given I have a calulator
     When I type in 1, "+", 1
     Then The result is "2"
 
-  @tag2
-  Scenario: Multiple additions
+  Scenario Outline: Multiple additions
     Given I have a calulator
     When I type in <value1> plus <value2>
     Then The result is "<result>"
-    
-    Examples: 
+
+    Examples:
       | value1 | value2 | result |
-      |      1 |      2 |      3 |
-      |      2 |      7 |      9 |
+      | 1      | 2      | 3      |
+      | 2      | 7      | 9      |
