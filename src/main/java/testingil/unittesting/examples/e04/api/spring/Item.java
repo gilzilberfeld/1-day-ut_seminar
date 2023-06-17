@@ -1,4 +1,4 @@
-package testingil.unittesting.examples.e04.spring;
+package testingil.unittesting.examples.e04.api.spring;
 
 public class Item {
 	String name;
